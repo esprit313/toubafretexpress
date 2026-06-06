@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F7FA;
+    font-family: "Poppins", sans-serif;
+}
+.home{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,07)),url("./images/PhotoPrincipal.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 230px;
+}
+
+.home header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+nav a{
+   
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.btn{
+    background-color: #1E5EFF;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.btn i{
+    margin-left: 2px;
+    transition: all 0.5s ease;
+}
+.btn i:hover{
+    transform: translateX(4px);
+}
+.text{
+    padding: 55px 5%;
+    width: 45%;
+
+}
+span{
+    color: #fff;
+    font-weight: bold;
+    background-color: #1E5EFF;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 55px;
+    color:  #ffff;
+    line-height: 55px;
+    padding-top: 20px;
+}
+h2{
+    color: #1E5EFF;
+    font-size: 50px;
+    line-height: 55px;
+}
+.text p{
+    color: #fff;
+    font-size: 16px;
+}
+.btns{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 15px;
+}
+ i{
+    margin-left: 4px;
+}
+.btn1{
+    background-color: #1E5EFF;
+     padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: transparent;
+     padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ffffff59;
+}
