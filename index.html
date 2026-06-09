@@ -1,76 +1,410 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Touba Fret Express</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/864b7cfa1e.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <section class="home">
-        <header>
-            <a href="#">Logo</a>
-            <nav>
-                <a href="#">Accueuil</a>
-                <a href="#">À Propos</a>
-                <a href="#">Nos services</a>
-                <a href="#">Contact</a>
-                <a href="#" class="btn">Demander un devis <i class="fa-solid fa-arrow-right"></i></a>
-            </nav>
-        </header>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/864b7cfa1e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header id="header">
+      <a href="#home" class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="2"
+            d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+          />
+        </svg>
+        <h4>Touba Fret<br />Express</h4>
+      </a>
+      <nav id="nav">
+        <a href="#home" class="active">Accueil</a> <a href="#about">À propos</a>
+        <a href="#services">Services</a> <a href="#reviews">Avis</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn">
+          Demander un devis <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span> <span></span> <span></span>
+      </div>
+    </header>
+    <!-- ================= HERO ================= -->
+    <section class="home reveal" id="home">
+      <div class="overlay"></div>
+      <div class="hero-content">
         <div class="text">
-            <span>Import-Export</span>
-            <h1>De la Chine <br>au Sénégal,</h1>
-            <h2>l'excellence sans <br>frontière.</h2>
-            <p><strong>Touba Fred Express</strong> vous accompagne dans vos projet d'importation depuis la chine avec fiablité,transparence et éfficacité.</p>
-            <div class="btns">
-                <a href="#" class="btn1">Découvrir nos services <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#" class="btn2">En Savoir plus <i class="fa-solid fa-play"></i></a>
-            </div>
-
+          <span>Import - Export</span>
+          <h1>De la Chine<br />au Sénégal,</h1>
+          <h2>l'excellence sans <br> frontière.</h2>
+          <p>
+            <strong>Touba Fret Express</strong> vous accompagne dans vos projets
+            d'importation depuis la Chine avec fiabilité, transparence et
+            efficacité.
+          </p>
+          <div class="btns">
+            <a href="#services" class="btn1">
+              Découvrir nos services <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#about" class="btn2">
+              En savoir plus <i class="fa-solid fa-play"></i>
+            </a>
+          </div>
         </div>
-        <div class="buts">
-            <div class="box">
-                <i class="fa-solid fa-box-archive"></i>
-                <div class="boxfils">
-                    <h4>Notre mission</h4>
-                    <p>Faciliter vos échanges commerciaux entre la Chine et le Sénégal avec des Solutions sur mesure.</p>
-                </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <div class="hero-card-badge">
+              <i class="fa-solid fa-globe"></i> Chine → Sénégal
             </div>
-            <div class="box">
-                <i class="fa-solid fa-trophy"></i>
-                <div class="boxfils">
-                    <h4>Notre Vision</h4>
-                    <p>Devenir le partenaire de référence en import-export Chine-Sénégal.</p>
-                </div>
+            <h3>Logistique maîtrisée de bout en bout</h3>
+            <p>
+              Sourcing, transport, dédouanement et suivi : une solution complète
+              pour sécuriser vos importations.
+            </p>
+            <div class="hero-card-stats">
+              <div class="stat-item">
+                <strong>98%</strong> <span>Satisfaction client</span>
+              </div>
+              <div class="stat-item">
+                <strong>1200+</strong> <span>Expéditions gérées</span>
+              </div>
             </div>
-            <div class="box">
-                <i class="fa-solid fa-handshake"></i>
-                <div class="boxfils">
-                    <h4>Notre engagement</h4>
-                    <p>Transparence,intégrité et satisfraction client au coeur de nos priorité.</p>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-users"></i>
-                <div class="boxfils">
-                    <h4>À votre service</h4>
-                    <p>Une équipe dédièe pour vous accompager à chaque étape de votre projet</p>
-                </div>
-            </div>
+          </div>
         </div>
-        
+      </div>
+      <div class="buts">
+        <div class="box">
+          <i class="fa-solid fa-box-archive"></i>
+          <div class="boxfils">
+            <h4>Notre mission</h4>
+            <p>
+              Faciliter vos échanges commerciaux entre la Chine et le Sénégal
+              avec des solutions sur mesure.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-trophy"></i>
+          <div class="boxfils">
+            <h4>Notre vision</h4>
+            <p>
+              Devenir le partenaire de référence en import-export Chine-Sénégal.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-handshake"></i>
+          <div class="boxfils">
+            <h4>Notre engagement</h4>
+            <p>
+              Transparence, intégrité et satisfaction client au cœur de nos
+              priorités.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-users"></i>
+          <div class="boxfils">
+            <h4>À votre service</h4>
+            <p>
+              Une équipe dédiée pour vous accompagner à chaque étape de votre
+              projet.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="tache">
-        <h6>Nos Services</h6>
-        <h2>Des solutions adaptées à vos besoins</h2>
-        <div id="competences"></div>
-
+    <!-- ================= ABOUT ================= -->
+    <section class="about reveal" id="about">
+      <div class="about-image">
+        <img src="./images/PhotoPrincipal.png" alt="Touba Fret Express" />
+      </div>
+      <div class="about-content">
+        <h6>À propos</h6>
+        <h2>Un partenaire de confiance pour vos importations</h2>
+        <p>
+          Touba Fret Express accompagne les entreprises et entrepreneurs
+          sénégalais dans leurs projets d'importation depuis la Chine. Grâce à
+          notre expertise logistique et à notre réseau de partenaires, nous
+          simplifions chaque étape du processus.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h3 class="counter" data-target="500">0</h3>
+            <p>Clients satisfaits</p>
+          </div>
+          <div class="stat">
+            <h3 class="counter" data-target="1200">0</h3>
+            <p>Expéditions réalisées</p>
+          </div>
+          <div class="stat">
+            <h3 class="counter" data-target="98">0</h3>
+            <p>% de satisfaction</p>
+          </div>
+        </div>
+      </div>
     </section>
-    
-
-
+    <!-- ================= SERVICES ================= -->
+    <section class="tache reveal" id="services">
+      <h6>Nos services</h6>
+      <h2>Des solutions adaptées à vos besoins</h2>
+      <div id="competences"></div>
+    </section>
+    <!-- ================= WHY US ================= -->
+    <section class="why-us reveal" id="why-us">
+      <h6>Pourquoi nous choisir</h6>
+      <h2>Ce qui fait la différence</h2>
+      <div class="features">
+        <div class="feature">
+          <i class="fa-solid fa-rocket"></i>
+          <h3>Rapidité</h3>
+          <p>
+            Des délais optimisés pour accélérer vos opérations commerciales.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Fiabilité</h3>
+          <p>
+            Un suivi rigoureux et des partenaires de confiance à chaque étape.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-eye"></i>
+          <h3>Transparence</h3>
+          <p>
+            Des informations claires et un accompagnement honnête tout au long
+            du projet.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-headset"></i>
+          <h3>Support dédié</h3>
+          <p>
+            Une équipe disponible pour répondre rapidement à toutes vos
+            questions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ================= REVIEWS ================= -->
+    <section class="reviews reveal" id="reviews">
+      <h6>Avis clients</h6>
+      <h2>Ils nous font confiance</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&q=80&auto=format&fit=crop"
+                alt="Mamadou Diop"
+              />
+            </div>
+            <div class="review-meta">
+              <h3>Mamadou Diop <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M12 2c-.791 0-1.55.314-2.11.874l-.893.893a.985.985 0 0 1-.696.288H7.04A2.984 2.984 0 0 0 4.055 7.04v1.262a.986.986 0 0 1-.288.696l-.893.893a2.984 2.984 0 0 0 0 4.22l.893.893a.985.985 0 0 1 .288.696v1.262a2.984 2.984 0 0 0 2.984 2.984h1.262c.261 0 .512.104.696.288l.893.893a2.984 2.984 0 0 0 4.22 0l.893-.893a.985.985 0 0 1 .696-.288h1.262a2.984 2.984 0 0 0 2.984-2.984V15.7c0-.261.104-.512.288-.696l.893-.893a2.984 2.984 0 0 0 0-4.22l-.893-.893a.985.985 0 0 1-.288-.696V7.04a2.984 2.984 0 0 0-2.984-2.984h-1.262a.985.985 0 0 1-.696-.288l-.893-.893A2.984 2.984 0 0 0 12 2Zm3.683 7.73a1 1 0 1 0-1.414-1.413l-4.253 4.253-1.277-1.277a1 1 0 0 0-1.415 1.414l1.985 1.984a1 1 0 0 0 1.414 0l4.96-4.96Z" clip-rule="evenodd"/>
+</svg>
+</h3>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            Service très professionnel. Mon conteneur est arrivé dans les délais
+            et j'ai été accompagné à chaque étape.
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&q=80&auto=format&fit=crop"
+                alt="Awa Ndiaye"
+              />
+            </div>
+            <div class="review-meta">
+              <h3>Awa Ndiaye <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M12 2c-.791 0-1.55.314-2.11.874l-.893.893a.985.985 0 0 1-.696.288H7.04A2.984 2.984 0 0 0 4.055 7.04v1.262a.986.986 0 0 1-.288.696l-.893.893a2.984 2.984 0 0 0 0 4.22l.893.893a.985.985 0 0 1 .288.696v1.262a2.984 2.984 0 0 0 2.984 2.984h1.262c.261 0 .512.104.696.288l.893.893a2.984 2.984 0 0 0 4.22 0l.893-.893a.985.985 0 0 1 .696-.288h1.262a2.984 2.984 0 0 0 2.984-2.984V15.7c0-.261.104-.512.288-.696l.893-.893a2.984 2.984 0 0 0 0-4.22l-.893-.893a.985.985 0 0 1-.288-.696V7.04a2.984 2.984 0 0 0-2.984-2.984h-1.262a.985.985 0 0 1-.696-.288l-.893-.893A2.984 2.984 0 0 0 12 2Zm3.683 7.73a1 1 0 1 0-1.414-1.413l-4.253 4.253-1.277-1.277a1 1 0 0 0-1.415 1.414l1.985 1.984a1 1 0 0 0 1.414 0l4.96-4.96Z" clip-rule="evenodd"/>
+</svg>
+</h3>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            Une équipe réactive et transparente. Je recommande Touba Fret
+            Express pour toute importation depuis la Chine.
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&q=80&auto=format&fit=crop"
+                alt="Ibrahima Sarr"
+              />
+            </div>
+            <div class="review-meta">
+              <h3>Ibrahima Sarr <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M12 2c-.791 0-1.55.314-2.11.874l-.893.893a.985.985 0 0 1-.696.288H7.04A2.984 2.984 0 0 0 4.055 7.04v1.262a.986.986 0 0 1-.288.696l-.893.893a2.984 2.984 0 0 0 0 4.22l.893.893a.985.985 0 0 1 .288.696v1.262a2.984 2.984 0 0 0 2.984 2.984h1.262c.261 0 .512.104.696.288l.893.893a2.984 2.984 0 0 0 4.22 0l.893-.893a.985.985 0 0 1 .696-.288h1.262a2.984 2.984 0 0 0 2.984-2.984V15.7c0-.261.104-.512.288-.696l.893-.893a2.984 2.984 0 0 0 0-4.22l-.893-.893a.985.985 0 0 1-.288-.696V7.04a2.984 2.984 0 0 0-2.984-2.984h-1.262a.985.985 0 0 1-.696-.288l-.893-.893A2.984 2.984 0 0 0 12 2Zm3.683 7.73a1 1 0 1 0-1.414-1.413l-4.253 4.253-1.277-1.277a1 1 0 0 0-1.415 1.414l1.985 1.984a1 1 0 0 0 1.414 0l4.96-4.96Z" clip-rule="evenodd"/>
+</svg>
+</h3>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            Excellent suivi de commande et dédouanement rapide. Une expérience
+            rassurante du début à la fin.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ================= LOCATION ================= -->
+    <section class="location reveal" id="location">
+      <h6>Localisation</h6>
+      <h2>Dakar Gibraltar</h2>
+      <div class="location-content">
+        <div class="location-info">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Adresse</h4>
+              <p>Dakar Gibraltar, Dakar, Sénégal</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Téléphone</h4>
+              <p>+221 77 000 00 00</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>contact@toubafretexpress.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps?q=Dakar+Gibraltar&output=embed"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <!-- ================= CONTACT ================= -->
+    <section class="contact reveal" id="contact">
+      <div class="contact-card">
+        <h6>Contact</h6>
+        <h2>Parlons de votre projet</h2>
+        <p>
+          Décrivez-nous votre besoin et nous vous répondrons rapidement avec une
+          solution adaptée.
+        </p>
+        <div class="contact-actions">
+          <a href="mailto:contact@toubafretexpress.com" class="btn1">
+            <i class="fa-solid fa-envelope"></i> Nous écrire
+          </a>
+          <a href="tel:+221770000000" class="btn2">
+            <i class="fa-solid fa-phone"></i> Appeler maintenant
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+            <h4>Touba Fret<br />Express</h4>
+          </div>
+          <p>Import - Export Chine → Sénégal</p>
+        </div>
+        <div class="footer-links">
+          <h3>Navigation</h3>
+          <a href="#home">Accueil</a> <a href="#about">À propos</a>
+          <a href="#services">Services</a> <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p><i class="fa-solid fa-phone"></i> +221 77 805 74 25</p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> trx14mars@gmail.com
+          </p>
+          <p><i class="fa-solid fa-location-dot"></i> Dakar Gibraltar, Dakar</p>
+        </div>
+        <div class="footer-social">
+          <h3>Suivez-nous</h3>
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Touba Fret Express. Tous droits réservés.</p>
+        <div class="signature">
+          Développé par <span>Esprit.dev✨</span>
+        </div>
+      </div>
+    </footer>
+    <!-- ================= BACK TO TOP ================= -->
+    <button id="backToTop" aria-label="Retour en haut">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
