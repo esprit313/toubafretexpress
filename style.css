@@ -35,7 +35,7 @@ a {
 }
 section {
   scroll-margin-top: 110px;
-} /* ================= HEADER ================= */
+}
 header {
   position: fixed;
   top: 0;
@@ -147,7 +147,7 @@ nav a:not(.btn):hover {
 }
 .menu-toggle.active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-} /* ================= HERO ================= */
+}
 .home{
   position: relative;
   min-height: 100vh;
@@ -360,7 +360,7 @@ nav a:not(.btn):hover {
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.7;
-} /* ================= GENERIC SECTIONS ================= */
+} 
 .tache,
 .why-us,
 .reviews,
@@ -429,7 +429,7 @@ nav a:not(.btn):hover {
 .stat p {
   color: var(--muted);
   font-size: 0.95rem;
-} /* ================= SERVICES ================= */
+}
 .tache {
   text-align: center;
   background-color: rgba(0, 0, 255, 0.091);
@@ -505,7 +505,7 @@ nav a:not(.btn):hover {
 .texte p {
   color: var(--muted);
   line-height: 1.7;
-} /* ================= WHY US ================= */
+} 
 .why-us {
   text-align: center;
 }
@@ -548,7 +548,7 @@ nav a:not(.btn):hover {
 .feature p {
   color: var(--muted);
   line-height: 1.7;
-} /* ================= REVIEWS ================= */
+} 
 .reviews {
   text-align: center;
   background-color: rgba(0, 0, 255, 0.091);
@@ -611,7 +611,7 @@ nav a:not(.btn):hover {
 .review-card p {
   color: var(--muted);
   line-height: 1.8;
-} /* ================= LOCATION ================= */
+} 
 .location-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -658,7 +658,7 @@ nav a:not(.btn):hover {
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--border);
-} /* ================= CONTACT ================= */
+}
 .contact {
   text-align: center;
   background-color: rgba(0, 0, 255, 0.091);
@@ -687,7 +687,7 @@ nav a:not(.btn):hover {
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
-} /* ================= FOOTER ================= */
+} 
 footer {
   background: #0f172a;
   color: #fff;
@@ -761,7 +761,7 @@ footer {
 .signature {
   color: rgba(255, 255, 255, 0.82);
 }
-.signature span {
+.signature span a {
   color: #9fc1ff;
   font-weight: 700;
   animation: glow 2s infinite;
@@ -774,7 +774,7 @@ footer {
   50% {
     text-shadow: 0 0 14px rgba(159, 193, 255, 0.8);
   }
-} /* ================= BACK TO TOP ================= */
+} 
 #backToTop {
   position: fixed;
   right: 22px;
@@ -802,7 +802,7 @@ footer {
 }
 #backToTop:hover {
   transform: translateY(-4px);
-} /* ================= REVEAL ================= */
+} 
 .reveal {
   opacity: 0;
   transform: translateY(60px);
@@ -813,7 +813,7 @@ footer {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
-} /* ================= RESPONSIVE ================= */
+} 
 @media (max-width: 1024px) {
   .hero-content {
     grid-template-columns: 1fr;
