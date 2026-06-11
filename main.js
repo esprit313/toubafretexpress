@@ -2,41 +2,35 @@ const competences = document.getElementById("competences");
 
 const services = [
     {
-        image: "./images/PhotoPrincipal.png",
+        image: "./images/Déchargement_conteneur.jpg",
         icon: "fa-solid fa-box-open",
         titre: "Sourcing en Chine",
         paragraph: "Nous trouvons pour vous les meilleurs fournisseurs et produits en Chine."
     },
     {
-        image: "./images/PhotoPrincipal.png",
+        image: "./images/Avion.jpg",
         icon: "fa-solid fa-ship",
         titre: "Transport & Logistique",
         paragraph: "Des solutions de transport maritime et aérien fiables jusqu'au Sénégal."
     },
     {
-        image: "./images/PhotoPrincipal.png",
+        image: "./images/Exposition_container.jpg",
         icon: "fa-solid fa-truck-fast",
         titre: "Suivi de commande",
         paragraph: "Un suivi rigoureux à chaque étape pour une livraison sans souci."
     },
     {
-        image: "./images/PhotoPrincipal.png",
+        image: "./images/Douane.jpg",
         icon: "fa-solid fa-file-contract",
         titre: "Dédouanement",
         paragraph: "Assistance et accompagnement pour un dédouanement rapide et conforme."
     },
     {
-        image: "./images/PhotoPrincipal.png",
+        image: "./images/Accord.jpg",
         icon: "fa-solid fa-headset",
         titre: "Conseil & Assistance",
         paragraph: "Nous vous conseillons et restons disponibles pour toutes vos préoccupations."
     },
-    {
-        image: "./images/PhotoPrincipal.png",
-        icon: "fa-solid fa-globe",
-        titre: "Import - Export",
-        paragraph: "Gestion complète de vos opérations commerciales entre la Chine et le Sénégal."
-    }
 ];
 
 const revealObserver = new IntersectionObserver(
