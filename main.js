@@ -23,7 +23,7 @@ const services = [
         image: "./images/money.jpg",
         icon: "fa-solid fa-file-contract",
         titre: "Payement Fournisseur et échange",
-        paragraph: "Assistance et accompagnement pour des Payements et échanges Sécurisés "
+        paragraph: "Assistance et accompagnement pour des Payements et échanges Sécurisés."
     },
     {
         image: "./images/Accord.jpg",
