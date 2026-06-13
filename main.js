@@ -3,27 +3,27 @@ const competences = document.getElementById("competences");
 const services = [
     {
         image: "./images/Déchargement_conteneur.jpg",
-        icon: "fa-solid fa-box-open",
+        icon: "fa-solid fa-ship",
         titre: "Sourcing en Chine",
         paragraph: "Nous trouvons pour vous les meilleurs fournisseurs et produits en Chine."
     },
     {
         image: "./images/Avion.jpg",
-        icon: "fa-solid fa-ship",
-        titre: "Transport & Logistique",
-        paragraph: "Des solutions de transport maritime et aérien fiables jusqu'au Sénégal."
+        icon: "fa-solid fa-plane",
+        titre: "Fret Aériène",
+        paragraph: "Des solutions de transport aérien fiables jusqu'au Sénégal Départ chaque 2 jours."
     },
     {
         image: "./images/Exposition_container.jpg",
         icon: "fa-solid fa-truck-fast",
-        titre: "Suivi de commande",
+        titre: "Groupage Maritime",
         paragraph: "Un suivi rigoureux à chaque étape pour une livraison sans souci."
     },
     {
-        image: "./images/Douane.jpg",
+        image: "./images/money.jpg",
         icon: "fa-solid fa-file-contract",
-        titre: "Dédouanement",
-        paragraph: "Assistance et accompagnement pour un dédouanement rapide et conforme."
+        titre: "Payement Fournisseur et échange",
+        paragraph: "Assistance et accompagnement pour des Payements et échanges Sécurisés "
     },
     {
         image: "./images/Accord.jpg",
